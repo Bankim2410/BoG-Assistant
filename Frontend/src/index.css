@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto+Slab:wght@100..900&display=swap');
+
+
+html, body{
+  margin: 0;
+  padding: 0;
+  background: rgb(227, 227, 227);
+  color: rgb(49, 130, 162);
+  font-family:"Roboto Slab", serif;
+}
+
+/* .image-inverted{
+  filter: invert(100%);
+}  */
+
+.navLink{
+   font-weight: 600;
+   text-transform: uppercase;
+   margin-right: 10px;
+   margin-left: 10px;
+   padding: 8px 20px;
+   border-radius: 10px;
+   text-decoration: none;
+   letter-spacing: 1px;
+}
+
+.MuiOutlinedInput-input-root.Mui-focused,
+.MuiOutlinedInput-notchedOutline {
+  border-color: rgb(11, 11, 11) !important;
+  color: rgb(11, 11, 11) !important;
+}
